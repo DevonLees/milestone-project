@@ -1,0 +1,157 @@
+/*****BASE STYLES*****/
+
+body{
+	color:#4d6149;
+	font-family:'Barlow', sans-serif;
+	font-size: 24px;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+h4{
+	font-size:24px;
+	font-weight: bold;
+	margin:0;
+}
+
+h5{
+	font-size:24px;
+	font-weight: normal;
+	margin:0;
+}
+p{
+	font-size: 24px;
+}
+/*****GRID*****/
+
+.full-width{
+	margin: 0 auto;
+    clear: both;
+	width: 1200px;
+}
+
+.half-width{
+	float: left;
+	width: 600px;
+	align-items:
+}
+
+.third-width{
+	float: left;
+	width: 400px;
+}
+/*****HEADER******/
+header h1{
+	color:#4d6149;
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	line-height: 40px;
+	margin: 0;
+	padding-top:420px;
+	text-align: center;	
+}
+
+header h2{
+	color: #bb9c43;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;	
+}
+
+#main-image{
+	background: url('../img/hero-image.png');
+	background-size: cover;
+	height:800px;
+	margin: 0;
+}
+/******PORTFOLIO******/
+#work{
+	height: 1400px;
+}
+#work h3{
+	margin: 50px 0 100px 0;
+}
+
+#work h4{
+	margin-top: 5px;
+}
+
+#work img{
+	border: 5px solid white;
+	height: 350px;
+	margin: auto auto 55px 50px;
+	width: 450px;
+}
+
+/******ABOUT******/
+#about{
+	background: #4d6149;
+	color: white;
+	height:650px;
+}
+
+#about h3{
+	margin:100px 0 50px 0;
+	padding-top: 50px;
+}
+
+#about p{
+	font-size: 18px;
+}
+
+#about img{
+	border: 5px solid white;	
+	height:350px;
+	width: 450px;
+	margin-left: 50px;
+}
+
+/******CONTACT*****/
+#contact{
+	background: #dae6d2;
+	height:450px;
+	text-align: center;
+}
+
+#contact h3{
+	padding:60px 0 100px 0;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    max-height: 29px;
+    max-width: 28px;
+    padding-right: 54px;
+}
+
+#contact p{
+	margin:0;
+}
+/******FOOTER******/
+footer {
+	background:#dae6d2;
+	background-size: cover;
+}
+
+footer p{	
+	font-size:14px;
+	margin:0;
+	padding-bottom: 15px;
+	text-align: center;
+}
